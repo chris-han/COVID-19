@@ -17,7 +17,7 @@ namespace SensorSim
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
             
-            string powerBI_API = "https://api.powerbi.cn/beta/4bdd9bf4-3bc1-411d-bf50-2c33f64cf161/datasets/b583265d-9102-4728-8203-c2ead1ee46f7/rows?key=JoLEXX48q8RQDF%2FI%2FZr8qwc5AD7BsJB%2B546LPDP6bjLCA%2BJcsA2qLU%2BOwKf%2Ft12HVooykHuieaSGNYsq11HrzA%3D%3D";
+            string powerBI_API = "put your API string here";
 
 
             /*
