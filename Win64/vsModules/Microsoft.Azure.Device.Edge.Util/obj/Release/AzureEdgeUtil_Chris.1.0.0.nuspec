@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AzureEdgeUtil_Chris</id>
+    <version>1.0.0</version>
+    <authors>Chris</authors>
+    <owners>Chris</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="App.Metrics" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="App.Metrics.Formatters.Prometheus" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="App.Metrics.Reporting.InfluxDB" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="App.Metrics.Reporting.TextFile" version="3.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+        <dependency id="Nito.AsyncEx" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Portable.BouncyCastle" version="1.8.5" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Extensions.Logging" version="2.0.2" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.Console" version="3.1.1" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="prometheus-net" version="3.1.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\bin\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.dll" target="lib\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.dll" />
+  </files>
+</package>

@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.29",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "connection": "eh-built-in_workplace-safety-east2_IOTHUB",
+      "eventHubName": "workplace-safety-east2",
+      "name": "events"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/AzFunc_Eh_To_PBI.dll",
+  "entryPoint": "IotHubBuiltinEventhub.Eventhub_Built_in_IoTHub.Run"
+}

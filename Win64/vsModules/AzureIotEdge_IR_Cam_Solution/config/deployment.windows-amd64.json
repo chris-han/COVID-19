@@ -1,0 +1,90 @@
+{
+  "modulesContent": {
+    "$edgeAgent": {
+      "properties.desired": {
+        "schemaVersion": "1.0",
+        "runtime": {
+          "type": "docker",
+          "settings": {
+            "minDockerVersion": "v1.25",
+            "loggingOptions": "",
+            "registryCredentials": {
+              "containerregistry": {
+                "username": "Containerregistry",
+                "password": "xC9gv6MK6w+djKMi8Iv2L5F5EYnFzNt2",
+                "address": "containerregistry.azurecr.cn"
+              }
+            }
+          }
+        },
+        "systemModules": {
+          "edgeAgent": {
+            "type": "docker",
+            "settings": {
+              "image": "mcr.microsoft.com/azureiotedge-agent:1.0",
+              "createOptions": "{}"
+            }
+          },
+          "edgeHub": {
+            "type": "docker",
+            "status": "running",
+            "restartPolicy": "always",
+            "settings": {
+              "image": "mcr.microsoft.com/azureiotedge-hub:1.0",
+              "createOptions": "{\"HostConfig\":{\"PortBindings\":{\"5671/tcp\":[{\"HostPort\":\"5671\"}],\"8883/tcp\":[{\"HostPort\":\"8883\"}],\"443/tcp\":[{\"HostPort\":\"443\"}]}}}"
+            }
+          }
+        },
+        "modules": {
+          "edgemodule_simulated_ir_cam": {
+            "version": "1.0.0",
+            "type": "docker",
+            "status": "running",
+            "restartPolicy": "always",
+            "settings": {
+              "image": "containerregistry.azurecr.cn/edgemodule_simulated_ir_cam:0.0.1-windows-amd64",
+              "createOptions": "{}"
+            }
+          },
+          "edgemodule_rule_engine": {
+            "version": "1.0.0",
+            "type": "docker",
+            "status": "running",
+            "restartPolicy": "always",
+            "settings": {
+              "image": "containerregistry.azurecr.cn/edgemodule_rule_engine:0.0.1-windows-amd64",
+              "createOptions": "{}"
+            }
+          }
+        }
+      }
+    },
+    "$edgeHub": {
+      "properties.desired": {
+        "schemaVersion": "1.0",
+        "routes": {
+          "edgemodule_simulated_ir_camToIoTHub": "FROM /messages/modules/edgemodule_simulated_ir_cam/outputs/* INTO $upstream",
+          "CamToRoleEngine": "FROM /messages/modules/edgemodule_simulated_ir_cam/outputs/* INTO BrokeredEndpoint(\"/modules/edgemodule_rule_engine/inputs/input1\")",
+          "edgemodule_rule_engineToIoTHub": "FROM /messages/modules/edgemodule_rule_engine/outputs/* INTO $upstream"
+        },
+        "storeAndForwardConfiguration": {
+          "timeToLiveSecs": 7200
+        }
+      }
+    },
+    "edgemodule_rule_engine": {
+      "properties.desired": {
+        "TemperatureThreshold": 37.2
+      }
+    },
+    "edgemodule_simulated_ir_cam": {
+      "properties.desired": {
+        "Sensor_Temperature_Min": 30,
+        "Sensor_Temperature_Max": 45,
+        "MessageInterval": 5,
+        "ActivateCam": true,
+        "SensorLocation": "Beijing"
+      }
+    }
+  }
+}

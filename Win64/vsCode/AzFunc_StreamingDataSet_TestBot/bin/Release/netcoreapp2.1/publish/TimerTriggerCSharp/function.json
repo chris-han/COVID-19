@@ -1,0 +1,16 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.29",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "timerTrigger",
+      "schedule": "*/5 * * * * *",
+      "useMonitor": true,
+      "runOnStartup": false,
+      "name": "myTimer"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/IoTEdge.dll",
+  "entryPoint": "SensorSim.TimerTriggerCSharp.Run"
+}

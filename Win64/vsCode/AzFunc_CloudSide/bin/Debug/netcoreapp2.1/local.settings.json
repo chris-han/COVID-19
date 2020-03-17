@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=workplacesafet2001645608;AccountKey=aZMwdh7xOMzxrQmDsWrHzUxvoA+fygvuMwD5YtpwhXBopztdTaQt0ZWol19n/pdL6TzXXSodX9+UcnrLiMLoeA==;EndpointSuffix=core.chinacloudapi.cn",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "eh-east2_iothubroutes_workplace-safety-east2_EVENTHUB": "Endpoint=sb://eh-east2.servicebus.chinacloudapi.cn/;SharedAccessKeyName=iothubroutes_workplace-safety-east2;SharedAccessKey=b2NAaj/Fe0mymLcFKVxVhsGxdeubml9ORRK3Db9nx0U=;EntityPath=eh-steaming-data",
+    "PBI-API": "https://api.powerbi.cn/beta/4bdd9bf4-3bc1-411d-bf50-2c33f64cf161/datasets/b304c9ec-4f23-42f8-ae11-ecf443a2f1c3/rows?key=O9WXZn2f8LOGzfXpnyyCBmA0FD1NoO%2BmqlN8oq713AZgzs3CEJfANLiHOa7DhXuLKAxo4zE%2FBCJHLyY%2FPMoTYQ%3D%3D",
+    "Flow_API": "https://prod-11.southeastasia.logic.azure.com:443/workflows/068e881b86044a378bea4b5840ffcf55/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=PY0eVyuqeFeg5t4CYZxztPklrPajKMDrRFDnvkllzEs" 
+  
+  }
+}

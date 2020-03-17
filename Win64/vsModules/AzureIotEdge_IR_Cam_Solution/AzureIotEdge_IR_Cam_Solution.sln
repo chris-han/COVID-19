@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{34036844-64E7-43A5-9151-4AD90E180989}") = "AzureIotEdge_IR_Cam", "AzureIotEdge_IR_Cam.iotedgeproj", "{42357A31-D87A-457E-95F3-1524836C220F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "edgemodule_simulated_ir_cam", "..\EdgeModule_Simulated_IR_Cam\edgemodule_simulated_ir_cam.csproj", "{6A733B3F-0746-4C1F-B9E0-B594A1DECA88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.Device.Edge.Util", "..\Microsoft.Azure.Device.Edge.Util\Microsoft.Azure.Device.Edge.Util.csproj", "{C5157C14-6675-4252-9507-C721765406CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "edgemodule_rule_engine", "..\edgemodule_rule_engine\edgemodule_rule_engine.csproj", "{B50FF95A-F7A8-45F2-BAAC-0C07A9E46F40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "azfunc_mask_detection", "..\azfunc_mask_detection\azfunc_mask_detection.csproj", "{5E9B44C3-36B7-48B4-977F-333DE7DAAEB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CheckInBuild|Any CPU = CheckInBuild|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42357A31-D87A-457E-95F3-1524836C220F}.CheckInBuild|Any CPU.ActiveCfg = Release|Any CPU
+		{42357A31-D87A-457E-95F3-1524836C220F}.CheckInBuild|Any CPU.Build.0 = Release|Any CPU
+		{42357A31-D87A-457E-95F3-1524836C220F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42357A31-D87A-457E-95F3-1524836C220F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42357A31-D87A-457E-95F3-1524836C220F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42357A31-D87A-457E-95F3-1524836C220F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A733B3F-0746-4C1F-B9E0-B594A1DECA88}.CheckInBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A733B3F-0746-4C1F-B9E0-B594A1DECA88}.CheckInBuild|Any CPU.Build.0 = Debug|Any CPU
+		{6A733B3F-0746-4C1F-B9E0-B594A1DECA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A733B3F-0746-4C1F-B9E0-B594A1DECA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A733B3F-0746-4C1F-B9E0-B594A1DECA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A733B3F-0746-4C1F-B9E0-B594A1DECA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5157C14-6675-4252-9507-C721765406CC}.CheckInBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5157C14-6675-4252-9507-C721765406CC}.CheckInBuild|Any CPU.Build.0 = Debug|Any CPU
+		{C5157C14-6675-4252-9507-C721765406CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5157C14-6675-4252-9507-C721765406CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5157C14-6675-4252-9507-C721765406CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5157C14-6675-4252-9507-C721765406CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50FF95A-F7A8-45F2-BAAC-0C07A9E46F40}.CheckInBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50FF95A-F7A8-45F2-BAAC-0C07A9E46F40}.CheckInBuild|Any CPU.Build.0 = Debug|Any CPU
+		{B50FF95A-F7A8-45F2-BAAC-0C07A9E46F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50FF95A-F7A8-45F2-BAAC-0C07A9E46F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50FF95A-F7A8-45F2-BAAC-0C07A9E46F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50FF95A-F7A8-45F2-BAAC-0C07A9E46F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9B44C3-36B7-48B4-977F-333DE7DAAEB2}.CheckInBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9B44C3-36B7-48B4-977F-333DE7DAAEB2}.CheckInBuild|Any CPU.Build.0 = Debug|Any CPU
+		{5E9B44C3-36B7-48B4-977F-333DE7DAAEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9B44C3-36B7-48B4-977F-333DE7DAAEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9B44C3-36B7-48B4-977F-333DE7DAAEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9B44C3-36B7-48B4-977F-333DE7DAAEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A5D8B7-BE5C-4CA8-B632-48A7F0EEABE5}
+	EndGlobalSection
+EndGlobal
