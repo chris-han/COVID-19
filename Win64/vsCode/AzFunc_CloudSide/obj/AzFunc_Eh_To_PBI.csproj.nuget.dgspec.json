@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\chha.FAREAST\\Documents\\GitHub\\AzFunc_Eh_To_PBI\\AzFunc_Eh_To_PBI.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\chha.FAREAST\\Documents\\GitHub\\AzFunc_Eh_To_PBI\\AzFunc_Eh_To_PBI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\chha.FAREAST\\Documents\\GitHub\\AzFunc_Eh_To_PBI\\AzFunc_Eh_To_PBI.csproj",
+        "projectName": "AzFunc_Eh_To_PBI",
+        "projectPath": "c:\\Users\\chha.FAREAST\\Documents\\GitHub\\AzFunc_Eh_To_PBI\\AzFunc_Eh_To_PBI.csproj",
+        "packagesPath": "C:\\Users\\chha.FAREAST\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\chha.FAREAST\\Documents\\GitHub\\AzFunc_Eh_To_PBI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chha.FAREAST\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Azure.WebJobs.Extensions.EventHubs": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[1.0.29, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

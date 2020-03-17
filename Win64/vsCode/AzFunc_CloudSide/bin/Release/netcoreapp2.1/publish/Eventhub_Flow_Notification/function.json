@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-1.0.29",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "connection": "eh-east2_iothubroutes_workplace-safety-east2_EVENTHUB",
+      "eventHubName": "eh-push-notification",
+      "name": "events"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/AzFunc_Eh_To_PBI.dll",
+  "entryPoint": "Eventhub2Flow.Eventhub_Flow_Notification.Run"
+}

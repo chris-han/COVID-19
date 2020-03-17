@@ -1,0 +1,16 @@
+C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\bin\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.deps.json
+C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\bin\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.dll
+C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\bin\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.pdb
+C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.AssemblyInfoInputs.cache
+C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.AssemblyInfo.cs
+C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.dll
+C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.pdb
+C:\Users\chha.FAREAST\Documents\GitHub\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.csprojAssemblyReference.cache
+C:\Users\chha.FAREAST\Documents\GitHub\Vs modules\Microsoft.Azure.Device.Edge.Util\bin\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.deps.json
+C:\Users\chha.FAREAST\Documents\GitHub\Vs modules\Microsoft.Azure.Device.Edge.Util\bin\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.dll
+C:\Users\chha.FAREAST\Documents\GitHub\Vs modules\Microsoft.Azure.Device.Edge.Util\bin\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.pdb
+C:\Users\chha.FAREAST\Documents\GitHub\Vs modules\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.csprojAssemblyReference.cache
+C:\Users\chha.FAREAST\Documents\GitHub\Vs modules\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.AssemblyInfoInputs.cache
+C:\Users\chha.FAREAST\Documents\GitHub\Vs modules\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.AssemblyInfo.cs
+C:\Users\chha.FAREAST\Documents\GitHub\Vs modules\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.dll
+C:\Users\chha.FAREAST\Documents\GitHub\Vs modules\Microsoft.Azure.Device.Edge.Util\obj\Release\netcoreapp2.1\Microsoft.Azure.Device.Edge.Util.pdb

@@ -1,0 +1,28 @@
+#powershell test case
+$endpoint = "https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/d0d3ed91-04b7-4023-855c-d8a7d160a911/rows?key=oTump4W30HMWKutbkmuOKsxNz6Y5or6fptwU7C2UrKAKgaYsPXToEUIAL0zMOvlgdtm9lbTDlws5vZTlE8JKpw%3D%3D"
+$payload = @{
+"time" ="2020-02-20T04:27:02.109Z"
+"loc" ="Shanghai"
+"ir_temp" =37.3
+"veri_temp" =37.2
+"ir_id" ="2fe6c5b4-7918-46cb-96f4-8c4c5cb2fd31"
+"rgb_id" ="2fe6c5b4-7918-46cb-96f4-8c4c5cb2fd32"
+"subject_id" ="2fe6c5b4-7918-46cb-96f4-8c4c5cb2fd33"
+"gatekeeper_id" ="2fe6c5b4-7918-46cb-96f4-8c4c5cb2fd31"
+}
+Invoke-RestMethod -Method Post -Uri "$endpoint" -Body (ConvertTo-Json @($payload))
+
+#powershell test case for China PBI
+$endpoint = "https://api.powerbi.cn/beta/4bdd9bf4-3bc1-411d-bf50-2c33f64cf161/datasets/d9e80cb2-d462-4935-89d3-ec1e5387c146/rows?key=T0GzKItOlDUKpQ8pTvnB5K1rNiqsmFB%2B9UVNZvMjNFkqaLfW%2Fwfkj7UqvVCgv7sJzNO%2FkWGZI%2FtyOgXtgLOJPA%3D%3D"
+$payload = @{
+"time" ="2020-02-20T04:27:09.109Z"
+"loc" ="Shanghai"
+"st_temp" =37.2
+"ir_temp" =37.2
+"veri_temp" =37.1
+"ir_id" ="2fe6c5b4-7918-46cb-96f4-8c4c5cb2fd31"
+"rgb_id" ="2fe6c5b4-7918-46cb-96f4-8c4c5cb2fd32"
+"subject_id" ="2fe6c5b4-7918-46cb-96f4-8c4c5cb2fd33"
+"gatekeeper_id" ="2fe6c5b4-7918-46cb-96f4-8c4c5cb2fd31"
+}
+Invoke-RestMethod -Method Post -Uri "$endpoint" -Body (ConvertTo-Json @($payload))

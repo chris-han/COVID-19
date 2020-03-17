@@ -1,0 +1,29 @@
+curl --include \
+--request POST \
+--header "Content-Type: application/json" \
+--data-binary "[
+{
+\"temp\" :38.2,
+\"id\" :\"A001\",
+\"loc\" :\"Beijing\",
+\"time\" :\"2020-02-08T07:48:23.583Z\"
+}
+]" \
+"https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/d0d3ed91-04b7-4023-855c-d8a7d160a911/rows?key=oTump4W30HMWKutbkmuOKsxNz6Y5or6fptwU7C2UrKAKgaYsPXToEUIAL0zMOvlgdtm9lbTDlws5vZTlE8JKpw%3D%3D"
+
+
+curl --include --request POST --header "Content-Type: application/json" --data-binary "[{\"temp\":37, \"id\":\"A001\", \"loc\":\"Beijing\", \"time\":\"2020/2/8 7:57:01\"}]" "https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/d0d3ed91-04b7-4023-855c-d8a7d160a911/rows?key=oTump4W30HMWKutbkmuOKsxNz6Y5or6fptwU7C2UrKAKgaYsPXToEUIAL0zMOvlgdtm9lbTDlws5vZTlE8JKpw%3D%3D"
+
+
+curl --include \
+--request POST \
+--header "Content-Type: application/json" \
+--data-binary "[
+{
+\"temp\" :38.6,
+\"id\" :\"AAAAA555555\",
+\"loc\" :\"AAAAA555555\",
+\"time\" :\"2020-02-08T08:49:46.817Z\"
+}
+]" \
+"https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/c608a7e4-3139-4b55-992c-f1d0fdb444ae/rows?key=1OiT7y2KEjeqVfbrkhtTDWHiknY3EBEZ0gd89tfwdWK%2F9Ouhp9zb9WiXQIdynkmKHEtoOSjAULzGhxcF3Gcmng%3D%3D"
